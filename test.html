@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link href="progress-polyfill.css" rel="stylesheet" />
+<script type="text/javascript">document.createElement('progress')</script>
+</head>
+<body>
+  <h2>Demos</h2>
+  <ul>
+    <li>
+      <label>Indeterminate
+        <progress max="100"></progress>
+      </label>
+    </li>
+    <li>
+      <label for="progress1">Progress: 0%</label>
+      <progress max="10" value="0" id="progress1"></progress>
+    </li>
+    <li>
+      <label for="progress2">Progress: .5 of 0</label>
+      <progress max="0" value="0.5" id="progress2"></progress>
+    </li>
+    <li>
+      <label for="progress3">Progress: 100%</label>
+      <progress max="3254" value="3254" id="progress3"></progress>
+    </li>
+    <li>
+      <label>Progress: 75%
+        <progress max="0.8" value="0.6"></progress>
+      </label>
+    </li>
+  </ul>
+
+  <script src="./index.js"></script>
+</body>
+</html>

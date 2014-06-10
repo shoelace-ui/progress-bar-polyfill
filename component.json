@@ -1,0 +1,17 @@
+{
+  "name": "progress-bar-polyfill",
+  "repo": "shoelace-ui/progress-bar-polyfill",
+  "description": "Polyfill for `<progress>` element",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "progress-bar-polyfill.css"
+  ]
+}
